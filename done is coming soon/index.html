@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>skillbox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" href="favicon/favicon.svg">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+<main class="main" id="main">
+    <header class="header" id="header">
+        <div class="container header__container flex">
+            <a class="header__logo-link" href="https://go.skillbox.ru" aria-label="логотип">
+                <img src="img/logo.svg" class="header__logo" alt="логотип">
+            </a>
+
+            <nav class="header__nav">
+                <ul class="header__list flex">
+                    <li class="header__list-item">
+                        <a class="header__item-link" href="#section-hero" aria-label="Главная">
+                            Главная
+                        </a>
+                    </li>
+
+                    <li class="header__list-item">
+                        <a class="header__item-link" href="#section-advantages" aria-label="О нас">
+                            О&nbsp;нас
+                        </a>
+                    </li>
+
+                    <li class="header__list-item">
+                        <a class="header__item-link" href="#section-teachers" aria-label="Преподователи">
+                            Преподаватели
+                        </a>
+                    </li>
+
+                    <li class="header__list-item">
+                        <a class="header__item-link" href="#section-courses" aria-label="Курсы">
+                            Курсы
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section section-hero hero__bg" id="section-hero">
+        <div class="container hero__container">
+            <div class="hero__info-wrapper col-lg-5 col-md-7 col-sm-9">
+                <h1 class="section-title hero__title">
+                    Курсы 3D моделирования
+                </h1>
+
+                <p class="section-descr hero-descr">
+                    Следует отметить, что существующая теория способствует повышению качества благоприятных
+                    перспектив.
+                    Не&nbsp;следует, однако, забывать.
+                </p>
+
+                <button class="section-btn hero__btn" aria-label="Выбрать курс">
+                    Выбрать курс
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-advantages" id="section-advantages">
+        <div class="container advantages__container">
+            <div class="advantages__top advantages__top-bg col-lg-9 col-md-12 col-sm-12">
+                <h2 class="section-title advantages__title">
+                    Преимущества обучения в skillbox
+                </h2>
+
+                <p class="section-descr advantages__descr-top">
+                    Имеется спорная точка зрения, гласящая примерно следующее: акционеры крупнейших компаний, которые
+                    представляют собой яркий пример континентально-европейского типа политической культуры, будут
+                    рассмотрены исключительно в&nbsp;разрезе маркетинговых предпосылок.
+                </p>
+            </div>
+
+            <div class="advantages__bottom">
+                <ul class="advantages__list row">
+                    <li class="col-sm-4">
+                        <div class="advantages__list-item advantages__bottom-bg-first flex">
+                            <p class="section-descr advantages__descr-bottom">
+                                Результат вашего обучения является самым важным для нас приоритетом
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4">
+                        <div class="advantages__list-item advantages__bottom-bg-second flex">
+                            <p class="section-descr advantages__descr-bottom">
+                                Лично познакомитесь с&nbsp;одним из&nbsp;своих будущих преподавателей
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="col-sm-4">
+                        <div class="advantages__list-item advantages__bottom-bg-third flex">
+                            <p class="section-descr advantages__descr-bottom">
+                                Значимость этих проблем очевидна, поэтому стоит всегда быть внимательным
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-teachers" id="section-teachers">
+        <div class="container">
+            <h2 class="section-title teachers__title">
+                Преподаватели курсов
+            </h2>
+
+            <ul class="teachers__list row">
+                <li class="col-lg-3 col-sm-6">
+                    <div class="teachers__list-item">
+                        <picture class="teachers__picture">
+                            <source srcset="img/teacher-first-320.jpg" media="(max-width: 320px)" class="teachers__img">
+                            <source srcset="img/teacher-first-576.jpg" media="(max-width: 576px)" class="teachers__img">
+                            <source srcset="img/teacher-first-768.jpg" media="(max-width: 992px)" class="teachers__img">
+                            <img src="img/teaacher-first.jpg" alt="преподователь" class="teachers__img">
+                        </picture>
+                        <h3 class="section-title teachers__subtitle">
+                            Владимир Петров
+                        </h3>
+
+                        <p class="section-descr teachers__descr">
+                            Лишь непосредственные участники технического прогресса неоднозначны и&nbsp;будут в&nbsp;равной
+                            степени предоставлены сами себе.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="col-lg-3 col-sm-6">
+                    <div class="teachers__list-item">
+                        <picture class="teachers__picture">
+                            <source srcset="img/teacher-second-320.jpg" media="(max-width: 320px)" class="teachers__img">
+                            <source srcset="img/teacher-second-576.jpg" media="(max-width: 576px)" class="teachers__img">
+                            <source srcset="img/teacher-second-768.jpg" media="(max-width: 992px)" class="teachers__img">
+                            <img src="img/teaacher-second.jpg" alt="преподователь" class="teachers__img">
+                        </picture>
+                        <h3 class="section-title teachers__subtitle">
+                            Денис Сергеев
+                        </h3>
+
+                        <p class="section-descr teachers__descr">
+                            Безусловно, разбавленное изрядной долей эмпатии, рациональное мышление.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="col-lg-3 col-sm-6">
+                    <div class="teachers__list-item">
+                        <picture class="teachers__picture">
+                            <source srcset="img/teacher-third-320.jpg" media="(max-width: 320px)" class="teachers__img">
+                            <source srcset="img/teacher-third-576.jpg" media="(max-width: 576px)" class="teachers__img">
+                            <source srcset="img/teacher-third-768.jpg" media="(max-width: 992px)" class="teachers__img">
+                            <img src="img/teacher-third.jpg" alt="преподователь" class="teachers__img">
+                        </picture>
+                        <h3 class="section-title teachers__subtitle">
+                            Михаил Андреев
+                        </h3>
+
+                        <p class="section-descr teachers__descr">
+                            Ясность нашей позиции очевидна: высокое качество позиционных исследований напрямую зависит
+                            от&nbsp;вывода.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="col-lg-3 col-sm-6">
+                    <div class="teachers__list-item">
+                        <picture class="teachers__picture">
+                            <source srcset="img/teacher-fourth-320.jpg" media="(max-width: 320px)" class="teachers__img">
+                            <source srcset="img/teacher-fourth-576.jpg" media="(max-width: 576px)" class="teachers__img">
+                            <source srcset="img/teacher-fourth-768.jpg" media="(max-width: 992px)" class="teachers__img">
+                            <img src="img/teaacher-fourth.jpg" alt="преподователь" class="teachers__img">
+                        </picture>
+                        <h3 class="section-title teachers__subtitle">
+                            Константин Дмитриев
+                        </h3>
+
+                        <p class="section-descr teachers__descr">
+                            Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что существующая теория, в&nbsp;своём
+                            классическом представлении.
+                        </p>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section class="section section-courses" id="section-courses">
+        <div class="container">
+            <h2 class="section-title courses__title">
+                Курсы
+            </h2>
+
+            <ul class="courses__list row">
+                <li class="col-sm-6 flex">
+                    <div class="courses__list-item courses__list-item-bg-first">
+                        <div class="courses__clock">
+                            <span class="courses__clock-text">
+                                60 часов
+                            </span>
+                        </div>
+
+                        <div class="courses__info">
+                            <h3 class="section-title courses__subtitle">
+                                Cinema 4d&nbsp;для начинающих
+                            </h3>
+
+                            <p class="section-descr courses__descr">
+                                Учитывая ключевые сценарии поведения, базовый вектор развития напрямую зависит от&nbsp;системы
+                                массового участия. Следует отметить, что сложившаяся структура организации напрямую
+                                зависит
+                                от&nbsp;стандартных подходов.
+                            </p>
+                        </div>
+
+                        <a href="#" class="courses__link" aria-label="Подробнее">
+                            Подробнее
+                        </a>
+                    </div>
+                </li>
+
+                <li class="col-sm-6 flex">
+                    <div class="courses__list-item courses__list-item-bg-second">
+                        <div class="courses__clock">
+                            <span class="courses__clock-text">
+                                40 часов
+                            </span>
+                        </div>
+
+                        <div class="courses__info">
+                            <h3 class="section-title courses__subtitle">
+                                Blender: продвинутый уровень
+                            </h3>
+
+                            <p class="section-descr courses__descr">
+                                Но&nbsp;убеждённость некоторых оппонентов в&nbsp;значительной степени обусловливает
+                                важность
+                                форм воздействия. Внезапно, тщательные исследования конкурентов представлены.
+                            </p>
+                        </div>
+
+                        <a href="#" class="courses__link" aria-label="Подробнее">
+                            Подробнее
+                        </a>
+                    </div>
+                </li>
+
+                <li class="col-sm-6 flex">
+                    <div class="courses__list-item courses__list-item-bg-third">
+                        <div class="courses__clock">
+                            <span class="courses__clock-text">
+                                40 часов
+                            </span>
+                        </div>
+
+                        <div class="courses__info">
+                            <h3 class="section-title courses__subtitle">
+                                Визуализация в&nbsp;3ds Max
+                            </h3>
+
+                            <p class="section-descr courses__descr">
+                                Повседневная практика показывает, что сложившаяся структура организации обеспечивает
+                                актуальность кластеризации усилий.
+                            </p>
+                        </div>
+
+                        <a href="#" class="courses__link" aria-label="Подробнее">
+                            Подробнее
+                        </a>
+                    </div>
+                </li>
+
+                <li class="col-sm-6 flex">
+                    <div class="courses__list-item courses__list-item-bg-fourth">
+                        <div class="courses__clock">
+                            <span class="courses__clock-text">
+                                80 часов
+                            </span>
+                        </div>
+
+                        <div class="courses__info">
+                            <h3 class="section-title courses__subtitle">
+                                Скульптинг в&nbsp;ZBrush
+                            </h3>
+
+                            <p class="section-descr courses__descr">
+                                Разнообразный и&nbsp;богатый опыт говорит нам, что граница обучения кадров требует
+                                определения и&nbsp;уточнения прогресса профессионального сообщества! В&nbsp;частности,
+                                постоянный количественный рост и&nbsp;сфера нашей активности.
+                            </p>
+                        </div>
+
+                        <a href="#" class="courses__link" aria-label="Подробнее">
+                            Подробнее
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer__top flex">
+            <ul class="footer__list flex">
+                <li class="footer__list-item">
+                    <a href="#" class="footer__social-link">
+                        <img src="img/footer-facebook.svg" alt="фейесбук" class="footer__social">
+                    </a>
+                </li>
+
+                <li class="footer__list-item">
+                    <a href="#" class="footer__social-link">
+                        <img src="img/footer-twitter.svg" alt="твитер" class="footer__social">
+                    </a>
+                </li>
+
+                <li class="footer__list-item">
+                    <a href="#" class="footer__social-link">
+                        <img src="img/footer-instagram.svg" alt="инстаграмм" class="footer__social">
+                    </a>
+                </li>
+
+                <li class="footer__list-item">
+                    <a href="#" class="footer__social-link">
+                        <img src="img/footer-youtube.svg" alt="ютуб" class="footer__social">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__bottom flex">
+            <p class="section-descr footer__bottom-text">
+                skillbox <span class="footer__registered"> &reg; </span> 2023
+            </p>
+        </div>
+    </footer>
+</main>
+</body>
+</html>
+
+
+
